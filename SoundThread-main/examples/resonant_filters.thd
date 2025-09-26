@@ -1,0 +1,278 @@
+{
+	"connections": [
+		{
+			"from_node_id": 3,
+			"from_port": 0,
+			"to_node_id": 4,
+			"to_port": 0
+		},
+		{
+			"from_node_id": 4,
+			"from_port": 0,
+			"to_node_id": 5,
+			"to_port": 0
+		},
+		{
+			"from_node_id": 2,
+			"from_port": 0,
+			"to_node_id": 3,
+			"to_port": 0
+		},
+		{
+			"from_node_id": 1,
+			"from_port": 0,
+			"to_node_id": 2,
+			"to_port": 0
+		}
+	],
+	"nodes": [
+		{
+			"checkbutton_states": {
+
+			},
+			"command": "inputfile",
+			"id": 1,
+			"name": "inputfile",
+			"notes": {
+
+			},
+			"offset": {
+				"x": 20.0,
+				"y": 80.0
+			},
+			"optionbutton_values": {
+				"@OptionButton@7122": 1,
+				"@OptionButton@7163": 0
+			},
+			"slider_values": {
+				"AudioPlayer/FileDialog/@VBoxContainer@7110/@MarginContainer@7150/Tree/@Popup@7136/@VBoxContainer@7137/@HSlider@7145": {
+					"editable": true,
+					"meta": {
+
+					},
+					"value": 0.0
+				}
+			}
+		},
+		{
+			"checkbutton_states": {
+
+			},
+			"command": "modify_brassage_5",
+			"id": 2,
+			"name": "modify_brassage_5",
+			"notes": {
+
+			},
+			"offset": {
+				"x": 519.111083984375,
+				"y": 80.0
+			},
+			"optionbutton_values": {
+
+			},
+			"slider_values": {
+				"Density/HSplitContainer/HSlider": {
+					"editable": true,
+					"meta": {
+						"brk": true,
+						"flag": "",
+						"max": false,
+						"min": false,
+						"time": false
+					},
+					"value": 0.6
+				}
+			}
+		},
+		{
+			"checkbutton_states": {
+
+			},
+			"command": "silend_silend_1",
+			"id": 3,
+			"name": "silend_silend_1",
+			"notes": {
+
+			},
+			"offset": {
+				"x": 890.666687011719,
+				"y": 80.0
+			},
+			"optionbutton_values": {
+
+			},
+			"slider_values": {
+				"LengthofSilence/HSplitContainer/HSlider": {
+					"editable": true,
+					"meta": {
+						"brk": false,
+						"flag": "",
+						"max": false,
+						"min": false,
+						"time": false
+					},
+					"value": 15.0
+				}
+			}
+		},
+		{
+			"checkbutton_states": {
+
+			},
+			"command": "filter_bank_6",
+			"id": 4,
+			"name": "filter_bank_6",
+			"notes": {
+
+			},
+			"offset": {
+				"x": 1256.66674804688,
+				"y": 80.0
+			},
+			"optionbutton_values": {
+
+			},
+			"slider_values": {
+				"HighestBand/HSplitContainer/HSlider": {
+					"editable": true,
+					"meta": {
+						"brk": false,
+						"flag": "",
+						"max": true,
+						"min": false,
+						"time": false
+					},
+					"value": 12000.0
+				},
+				"LowestBand/HSplitContainer/HSlider": {
+					"editable": true,
+					"meta": {
+						"brk": false,
+						"flag": "",
+						"max": false,
+						"min": true,
+						"time": false
+					},
+					"value": 110.0
+				},
+				"MakeupGain/HSplitContainer/HSlider": {
+					"editable": true,
+					"meta": {
+						"brk": false,
+						"flag": "",
+						"max": false,
+						"min": false,
+						"time": false
+					},
+					"value": 1.5
+				},
+				"Q/HSplitContainer/HSlider": {
+					"editable": true,
+					"meta": {
+						"brk": false,
+						"flag": "",
+						"max": false,
+						"min": false,
+						"time": false
+					},
+					"value": 400.0
+				},
+				"Scatter/HSplitContainer/HSlider": {
+					"editable": true,
+					"meta": {
+						"brk": false,
+						"flag": "-s",
+						"max": false,
+						"min": false,
+						"time": false
+					},
+					"value": 0.0
+				},
+				"Semitones/HSplitContainer/HSlider": {
+					"editable": true,
+					"meta": {
+						"brk": false,
+						"flag": "",
+						"max": false,
+						"min": false,
+						"time": false
+					},
+					"value": 7.0
+				}
+			}
+		},
+		{
+			"checkbutton_states": {
+				"Autoplay": true,
+				"DeleteIntermediateFilesToggle": true,
+				"ReuseFolderToggle": true
+			},
+			"command": "outputfile",
+			"id": 5,
+			"name": "outputfile",
+			"notes": {
+
+			},
+			"offset": {
+				"x": 1624.88879394531,
+				"y": 80.0
+			},
+			"optionbutton_values": {
+				"@OptionButton@7291": 1,
+				"@OptionButton@7332": 0
+			},
+			"slider_values": {
+				"AudioPlayer/FileDialog/@VBoxContainer@7279/@MarginContainer@7319/Tree/@Popup@7305/@VBoxContainer@7306/@HSlider@7314": {
+					"editable": true,
+					"meta": {
+
+					},
+					"value": 0.0
+				}
+			}
+		},
+		{
+			"checkbutton_states": {
+
+			},
+			"command": "notes",
+			"id": 6,
+			"name": "notes",
+			"notes": {
+				"CodeEdit": "Applying a low density granular process before a resonant filter can help the sound ping and activate the filter making it rhythmic and percussive rather than a constant drone."
+			},
+			"offset": {
+				"x": 494.444458007813,
+				"y": 524.444458007813
+			},
+			"optionbutton_values": {
+
+			},
+			"slider_values": {
+
+			}
+		},
+		{
+			"checkbutton_states": {
+
+			},
+			"command": "notes",
+			"id": 7,
+			"name": "notes2",
+			"notes": {
+				"CodeEdit": "Resonant filters and other processes that add durational elements onto a sound (such as PVOC: Blur) can often get their tails cut off during the process. Using Append Silence we can add some silence onto our sound before processing by the filter to allow some room for the tail to decay. "
+			},
+			"offset": {
+				"x": 992.222229003906,
+				"y": 525.555541992188
+			},
+			"optionbutton_values": {
+
+			},
+			"slider_values": {
+
+			}
+		}
+	]
+}

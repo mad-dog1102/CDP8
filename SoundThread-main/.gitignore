@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+/.tmp_audio
+splash.xcf
+/theme/images/icon.xcf
+cdprogs/windows/
+cdprogs/mac/
+cdprogs/linux/
